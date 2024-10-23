@@ -23,12 +23,10 @@ const BoxForm = () => {
           <label>Color: </label>
           <input
             type="text"
-            value={color}
-            onChange={(e) => setColor(e.target.value)}
-            placeholder="Enter color (e.g., red, #ff0000)"
+            value={color}onChange={(e) => setColor(e.target.value)}placeholder=""
           />
         </div>
-        <button type="submit">Add Box</button>
+        <button type="submit">Add</button>
       </form>
 
       <div className="box-container">
